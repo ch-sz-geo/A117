@@ -227,10 +227,11 @@ th {
 <li><a href="#_transformation_vom_bearbeitungsmodell_ins_publikationsmodell_todo">5.1. Transformation vom Bearbeitungsmodell ins Publikationsmodell &lt;todo&gt;</a></li>
 <li><a href="#_transformation_ins_minimale_geodatenmodell_des_bundes">5.2. Transformation ins minimale Geodatenmodell des Bundes</a>
 <ul class="sectlevel3">
-<li><a href="#_klasse_waldreservat">5.2.1. Klasse <code>Waldreservat</code></a></li>
-<li><a href="#_klasse_waldreservat_teilobjekt">5.2.2. Klasse <code>Waldreservat_Teilobjekt</code></a></li>
-<li><a href="#_klasse_dokument">5.2.3. Klasse <code>Dokument</code></a></li>
-<li><a href="#_klasse_amt">5.2.4. Klasse <code>Amt</code></a></li>
+<li><a href="#_struktur_schutzziele">5.2.1. Struktur <code>Schutzziele</code></a></li>
+<li><a href="#_klasse_waldreservat">5.2.2. Klasse <code>Waldreservat</code></a></li>
+<li><a href="#_klasse_waldreservat_teilobjekt">5.2.3. Klasse <code>Waldreservat_Teilobjekt</code></a></li>
+<li><a href="#_klasse_dokument">5.2.4. Klasse <code>Dokument</code></a></li>
+<li><a href="#_klasse_amt">5.2.5. Klasse <code>Amt</code></a></li>
 </ul>
 </li>
 <li><a href="#_transformation_ins_transfermodell_öreb_kataster_todo">5.3. Transformation ins Transfermodell ÖREB-Kataster &lt;todo&gt;</a>
@@ -1045,7 +1046,34 @@ In diesem Abschnitt muss der Entscheid aufgeführt werden, wie die zuständige S
 </ul>
 </div>
 <div class="sect3">
-<h4 id="_klasse_waldreservat"><a class="anchor" href="#_klasse_waldreservat"></a><a class="link" href="#_klasse_waldreservat">5.2.1. Klasse <code>Waldreservat</code></a></h4>
+<h4 id="_struktur_schutzziele"><a class="anchor" href="#_struktur_schutzziele"></a><a class="link" href="#_struktur_schutzziele">5.2.1. Struktur <code>Schutzziele</code></a></h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Quellattribut</th>
+<th class="tableblock halign-left valign-top">Zielattribut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo<br>
+von den Stammdaten</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Schutzziel</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo<br>
+<code>Waldreservat_Teilobjekt.Bemerkung_Schutzziel</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>SchutzzielBemerkung</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_klasse_waldreservat"><a class="anchor" href="#_klasse_waldreservat"></a><a class="link" href="#_klasse_waldreservat">5.2.2. Klasse <code>Waldreservat</code></a></h4>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 50%;">
@@ -1074,7 +1102,7 @@ In diesem Abschnitt muss der Entscheid aufgeführt werden, wie die zuständige S
 </table>
 </div>
 <div class="sect3">
-<h4 id="_klasse_waldreservat_teilobjekt"><a class="anchor" href="#_klasse_waldreservat_teilobjekt"></a><a class="link" href="#_klasse_waldreservat_teilobjekt">5.2.2. Klasse <code>Waldreservat_Teilobjekt</code></a></h4>
+<h4 id="_klasse_waldreservat_teilobjekt"><a class="anchor" href="#_klasse_waldreservat_teilobjekt"></a><a class="link" href="#_klasse_waldreservat_teilobjekt">5.2.3. Klasse <code>Waldreservat_Teilobjekt</code></a></h4>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 50%;">
@@ -1127,7 +1155,7 @@ In diesem Abschnitt muss der Entscheid aufgeführt werden, wie die zuständige S
 </table>
 </div>
 <div class="sect3">
-<h4 id="_klasse_dokument"><a class="anchor" href="#_klasse_dokument"></a><a class="link" href="#_klasse_dokument">5.2.3. Klasse <code>Dokument</code></a></h4>
+<h4 id="_klasse_dokument"><a class="anchor" href="#_klasse_dokument"></a><a class="link" href="#_klasse_dokument">5.2.4. Klasse <code>Dokument</code></a></h4>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 50%;">
@@ -1188,7 +1216,7 @@ In diesem Abschnitt muss der Entscheid aufgeführt werden, wie die zuständige S
 </table>
 </div>
 <div class="sect3">
-<h4 id="_klasse_amt"><a class="anchor" href="#_klasse_amt"></a><a class="link" href="#_klasse_amt">5.2.4. Klasse <code>Amt</code></a></h4>
+<h4 id="_klasse_amt"><a class="anchor" href="#_klasse_amt"></a><a class="link" href="#_klasse_amt">5.2.5. Klasse <code>Amt</code></a></h4>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 50%;">
@@ -1460,7 +1488,7 @@ Zudem muss der Code des Waldfeststellungstatus <code>Verfahrensstatus.Code</code
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-02-07 12:59:19 UTC
+Last updated 2025-02-07 16:40:01 UTC
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
