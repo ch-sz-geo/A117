@@ -7,6 +7,16 @@
 * Quellmodell: Das hier beschriebene Datenmodell
 * Zielmodell: http://models.geo.admin.ch/BAFU/Waldreservate_V2_0.ili[Waldreservate_V2_0 (Version: 2025-01-23)]
 
+==== Struktur `+Schutzziele+`
+[cols=2*,options="header"]
+|===
+| Quellattribut | Zielattribut
+| todo +
+von den Stammdaten m| Schutzziel
+| todo +
+`+Waldreservat_Teilobjekt.Bemerkung_Schutzziel+` m| SchutzzielBemerkung
+|===
+
 ==== Klasse `+Waldreservat+`
 [cols=2*,options="header"]
 |===
