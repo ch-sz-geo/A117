@@ -224,9 +224,16 @@ th {
 </li>
 <li><a href="#_modelltransformationen">5. Modelltransformationen</a>
 <ul class="sectlevel2">
-<li><a href="#_transformation_vom_bearbeitungsmodell_ins_publikationsmodell">5.1. Transformation vom Bearbeitungsmodell ins Publikationsmodell</a></li>
-<li><a href="#_transformation_ins_minimale_geodatenmodell_des_bundes">5.2. Transformation ins minimale Geodatenmodell des Bundes</a></li>
-<li><a href="#_transformation_ins_transfermodell_öreb_kataster">5.3. Transformation ins Transfermodell ÖREB-Kataster</a>
+<li><a href="#_transformation_vom_bearbeitungsmodell_ins_publikationsmodell_todo">5.1. Transformation vom Bearbeitungsmodell ins Publikationsmodell &lt;todo&gt;</a></li>
+<li><a href="#_transformation_ins_minimale_geodatenmodell_des_bundes">5.2. Transformation ins minimale Geodatenmodell des Bundes</a>
+<ul class="sectlevel3">
+<li><a href="#_klasse_waldreservat">5.2.1. Klasse <code>Waldreservat</code></a></li>
+<li><a href="#_klasse_waldreservat_teilobjekt">5.2.2. Klasse <code>Waldreservat_Teilobjekt</code></a></li>
+<li><a href="#_klasse_dokument">5.2.3. Klasse <code>Dokument</code></a></li>
+<li><a href="#_klasse_amt">5.2.4. Klasse <code>Amt</code></a></li>
+</ul>
+</li>
+<li><a href="#_transformation_ins_transfermodell_öreb_kataster_todo">5.3. Transformation ins Transfermodell ÖREB-Kataster &lt;todo&gt;</a>
 <ul class="sectlevel3">
 <li><a href="#_klasse_darstellungsdienst">5.3.1. Klasse <code>DarstellungsDienst</code></a></li>
 <li><a href="#_klasse_eigentumsbeschraenkung">5.3.2. Klasse <code>Eigentumsbeschraenkung</code></a></li>
@@ -983,7 +990,7 @@ Kuno Epper (Kep), AGI</p></td>
 <h2 id="_modelltransformationen"><a class="anchor" href="#_modelltransformationen"></a><a class="link" href="#_modelltransformationen">5. Modelltransformationen</a></h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_transformation_vom_bearbeitungsmodell_ins_publikationsmodell"><a class="anchor" href="#_transformation_vom_bearbeitungsmodell_ins_publikationsmodell"></a><a class="link" href="#_transformation_vom_bearbeitungsmodell_ins_publikationsmodell">5.1. Transformation vom Bearbeitungsmodell ins Publikationsmodell</a></h3>
+<h3 id="_transformation_vom_bearbeitungsmodell_ins_publikationsmodell_todo"><a class="anchor" href="#_transformation_vom_bearbeitungsmodell_ins_publikationsmodell_todo"></a><a class="link" href="#_transformation_vom_bearbeitungsmodell_ins_publikationsmodell_todo">5.1. Transformation vom Bearbeitungsmodell ins Publikationsmodell &lt;todo&gt;</a></h3>
 <div class="ulist">
 <ul>
 <li>
@@ -1003,13 +1010,209 @@ Kuno Epper (Kep), AGI</p></td>
 <p>Quellmodell: Das hier beschriebene Datenmodell</p>
 </li>
 <li>
-<p>Zielmodell: <a href="http://models.geo.admin.ch/BAFU/todo">&lt;Modellname&gt; (Version: 2023-03-20)</a></p>
+<p>Zielmodell: <a href="http://models.geo.admin.ch/BAFU/Waldreservate_V2_0.ili">Waldreservate_V2_0 (Version: 2025-01-23)</a></p>
 </li>
 </ul>
 </div>
+<div class="sect3">
+<h4 id="_klasse_waldreservat"><a class="anchor" href="#_klasse_waldreservat"></a><a class="link" href="#_klasse_waldreservat">5.2.1. Klasse <code>Waldreservat</code></a></h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Quellattribut</th>
+<th class="tableblock halign-left valign-top">Zielattribut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>ObjNummer</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Name</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Vertragsflaeche</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_klasse_waldreservat_teilobjekt"><a class="anchor" href="#_klasse_waldreservat_teilobjekt"></a><a class="link" href="#_klasse_waldreservat_teilobjekt">5.2.2. Klasse <code>Waldreservat_Teilobjekt</code></a></h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Quellattribut</th>
+<th class="tableblock halign-left valign-top">Zielattribut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>TeilObjNummer</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>MCPFE_Class</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>PrioGebiet</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Schutzziele</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>NFA_Finanzierung</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Geo_Obj</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Rechtsstatus</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>publiziertAb</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>publiziertBis</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_klasse_dokument"><a class="anchor" href="#_klasse_dokument"></a><a class="link" href="#_klasse_dokument">5.2.3. Klasse <code>Dokument</code></a></h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Quellattribut</th>
+<th class="tableblock halign-left valign-top">Zielattribut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Typ</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Titel</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Abkuerzung</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>OffizielleNr</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>NurInGemeinde</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>TextImWeb</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Dokument</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>AuszugIndex</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Rechtsstatus</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>publiziertAb</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>publiziertBis</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_klasse_amt"><a class="anchor" href="#_klasse_amt"></a><a class="link" href="#_klasse_amt">5.2.4. Klasse <code>Amt</code></a></h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Quellattribut</th>
+<th class="tableblock halign-left valign-top">Zielattribut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Name</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>AmtImWeb</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>UID</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Zeile1</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Zeile2</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Strasse</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Hausnr</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>PLZ</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">todo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Ort</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 <div class="sect2">
-<h3 id="_transformation_ins_transfermodell_öreb_kataster"><a class="anchor" href="#_transformation_ins_transfermodell_öreb_kataster"></a><a class="link" href="#_transformation_ins_transfermodell_öreb_kataster">5.3. Transformation ins Transfermodell ÖREB-Kataster</a></h3>
+<h3 id="_transformation_ins_transfermodell_öreb_kataster_todo"><a class="anchor" href="#_transformation_ins_transfermodell_öreb_kataster_todo"></a><a class="link" href="#_transformation_ins_transfermodell_öreb_kataster_todo">5.3. Transformation ins Transfermodell ÖREB-Kataster &lt;todo&gt;</a></h3>
 <div class="ulist">
 <ul>
 <li>
@@ -1227,7 +1430,7 @@ Zudem muss der Code des Waldfeststellungstatus <code>Verfahrensstatus.Code</code
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-02-07 10:19:15 UTC
+Last updated 2025-02-07 10:32:12 UTC
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
