@@ -7,7 +7,7 @@ Am 1. Januar 2013 trat die kantonale Verordnung über Geoinformation (kGeoiV, SR
 === Zweck des Dokuments
 Dieses Dokument beschreibt den Geobasisdatensatz
  
-* *__<Name des Datensatzes>__.* +
+* *__Waldreservate__.* +
 
 __<weitere Beschreibungen>__ +
 
