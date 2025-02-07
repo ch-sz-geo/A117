@@ -2,6 +2,18 @@
 
 <Beschreibung einfügen>
 
+__<todo> +
+In diesem Abschnitt muss der Entscheid aufgeführt werden, wie die zuständige Stelle den Umgang mit den Verträgen handhabt. Folgender Text könnte in Frage kommen:__
+
+Gemäss Kapitel 3.16.2 in <<allgemeines.adoc#doc-04,[04]>> gilt: +
+__"Die Verträge mit Waldbewirtschaftern selber müssen nicht zwingend als Rechtsvorschrift verlinkt werden. In dem Falle ist bei den Rechtsvorschriften der Name des Vertrages anzugeben, damit sich Interessierte bei der zuständigen Fachstelle erkundigen können."__
+
+Die zuständige Stelle entschied demnach, folgende Attribute zu führen:
+
+- Vertragsname
+- Vertragspartner
+- Kontaktadresse
+
 ifdef::backend-pdf[]
 <<<
 endif::[]
