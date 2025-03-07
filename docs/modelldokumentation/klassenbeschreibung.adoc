@@ -172,6 +172,10 @@ m| Doklink
 | Internetadresse, unter welcher die Dokumente für die ÖREB-Publikation abgerufen werden können
 | https://oereblex.sz.ch/api/geolinks/1912
 | öffentlich
+m| Vertragsflaeche
+| Gesamtfläche des vertraglich oder durch eine Schutzanordnung festgelegten Waldreservats in [ha].
+| 10.53
+| öffentlich
 m| Bemerkung
 | öffentliche Bemerkung zum Objekt
 | Das ist eine öffentliche Bemerkung
