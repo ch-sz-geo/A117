@@ -21,57 +21,33 @@ von den Stammdaten m| Schutzziel
 [cols=2*,options="header"]
 |===
 | Quellattribut | Zielattribut
-| todo m| ObjNummer
-| todo m| Name
-| todo m| Vertragsflaeche
+m| Kennung m| ObjNummer
+m| Name m| Name
+m| Vertragsflaeche m| Vertragsflaeche
 |===
 
 ==== Klasse `+Waldreservat_Teilobjekt+`
 [cols=2*,options="header"]
 |===
 | Quellattribut | Zielattribut
-| todo m| TeilObjNummer
-| todo m| MCPFE_Class
-| todo m| PrioGebiet
-| todo m| Schutzziele
-| todo m| NFA_Finanzierung
-| todo m| Geo_Obj
-| todo m| Rechtsstatus
-| todo m| publiziertAb
-| todo m| publiziertBis
+m| Kennung m| TeilObjNummer
+|  `+tid+ der http://models.geo.admin.ch/BAFU/Waldreservate_Catalogues_V2_0.xml[Codeliste]`; +
+hergeleitet über `+MCPFE_Klasse.Code+` = `+MCPFE_Class_Catalogue.Code+`
+m| MCPFE_Class
+m| Prioritaet.Code m| PrioGebiet
+m| todo m| Schutzziele
+m| istNFAfinanziert m| NFA_Finanzierung
+m| Geometrie m| Geo_Obj
+m| Rechtsstatus.Code m| Rechtsstatus
+| _Wird zum Zeitunkt der Publikation im ÖRERB-Kataster gesetzt_ m| publiziertAb
+| - - - m| publiziertBis
 |===
 
 ==== Klasse `+Dokument+`
-[cols=2*,options="header"]
-|===
-| Quellattribut | Zielattribut
-| todo m| Typ
-| todo m| Titel
-| todo m| Abkuerzung
-| todo m| OffizielleNr
-| todo m| NurInGemeinde
-| todo m| TextImWeb
-| todo m| Dokument
-| todo m| AuszugIndex
-| todo m| Rechtsstatus
-| todo m| publiziertAb
-| todo m| publiziertBis
-|===
+Die Objekte der Klasse `+Dokument+` werden nicht an den Bund geliefert. Aus diesem Grund erübrigt sich eine Zuordnung.
 
 ==== Klasse `+Amt+`
-[cols=2*,options="header"]
-|===
-| Quellattribut | Zielattribut
-| todo m| Name
-| todo m| AmtImWeb
-| todo m| UID
-| todo m| Zeile1
-| todo m| Zeile2
-| todo m| Strasse
-| todo m| Hausnr
-| todo m| PLZ
-| todo m| Ort
-|===
+Die Werte für die Klasse `+Amt+` werden für alle ÖREB-Themen zentral zur Verfügung gestellt und aus dieser Zusammenstellung entnommen.
 
 === Transformation ins Transfermodell ÖREB-Kataster <todo>
 * Quellmodell: Das hier beschriebene Datenmodell
