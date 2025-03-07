@@ -11,10 +11,8 @@
 [cols=2*,options="header"]
 |===
 | Quellattribut | Zielattribut
-| todo +
-von den Stammdaten m| Schutzziel
-| todo +
-`+Waldreservat_Teilobjekt.Bemerkung_Schutzziel+` m| SchutzzielBemerkung
+m| Schutzziel__Gebiet.rSchutzziel m| Schutzziel
+m| Schutzziel__Gebiet.Bemerkung m| SchutzzielBemerkung
 |===
 
 ==== Klasse `+Waldreservat+`
