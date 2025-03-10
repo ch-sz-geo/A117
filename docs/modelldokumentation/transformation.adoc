@@ -55,7 +55,7 @@ Die Werte für die Klasse `+Amt+` werden für alle ÖREB-Themen zentral zur Verf
 [cols=2*,options="header"]
 |===
 | Quellattribut | Zielattribut
-| `+ch.sz.a094b.oereb.wald.statische_waldgrenze.linie+`
+| `+ch.sz.a094b.oereb.wald.waldreservate+`    
 | `+VerweisWMS+`
 |===
 
@@ -68,7 +68,7 @@ Die Werte für die Klasse `+Amt+` werden für alle ÖREB-Themen zentral zur Verf
 | (aktuell nicht verwendet und daher leer) m| publiziertBis
 |===
 
-Regeln für die Ableitung des Wertes für `+Rechtsstatus+`:
+Regeln für die Ableitung des Wertes für `+Rechtsstatus+`: <todo>
 |===
 h| Regel h| Rechtsstatus
 a| Der Wert von `+Waldgrenze.Begruendungsverfahren+` muss gesetzt sein und der Wert von `+Waldgrenze.Aufhebungsverfahren+` muss leer sein. +
@@ -89,33 +89,24 @@ Zudem muss der Code des Waldfeststellungstatus `+Verfahrensstatus.Code+` des Auf
 |===
 | Quellattribut | Zielattribut
 | - - - m| Punkt
-m| Waldgrenze.Geometrie m| Linie
-| - - - m| Flaeche
+| - - - m| Linie
+| Gebiet.Geometrie m| Flaeche
 | analog `+Eigentumsbeschraenkung.Rechtsstatus+` m| Rechtsstatus
 | analog `+Eigentumsbeschraenkung.publiziertAb+` m| publiziertAb
 | analog `+Eigentumsbeschraenkung.publiziertBis+` m| publiziertBis
-| https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/8646c41b-543e-401f-836d-4b6beca7370d[Link auf GeoCat] m| MetadatenGeobasisdaten
+| https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/1be6a001-5914-43cc-8910-c62e0d6505c1[Link auf GeoCat] m| MetadatenGeobasisdaten
 |===
 
 ==== Klasse `+LegendeEintrag+`
 [cols=2*,options="header"]
 |===
 | Quellattribut | Zielattribut
-m| Typ.Symbol m| Symbol
-m| Typ.Name m| LegendeText
-m| Typ.Code m| ArtCode
-m| https://data.geo.sz.ch/public/Themen/A057b/[Legende.xml] m| ArtCodeliste
-| fix: " `+ch.StatischeWaldgrenzen+` " m| Thema
+m| MCPFE_Klasse.Symbol m| Symbol
+m| MCPFE_Klasse.Name m| LegendeText
+m| MCPFE_Klasse.Code m| ArtCode
+m| https://data.geo.sz.ch/public/Themen/A117a/Legende.xml[Legende.xml] m| ArtCodeliste
+| fix: " `+ch.Waldreservate+` " m| Thema
 | - - - m| SubThema
-|===
-
-
-[cols="e,m,^,>s",width="25%"]
-|===
-|1 >s|2 |3 |4
-^|5 2.2+^.^|6 .3+<.>m|7
-^|8
-|9 2+>|10
 |===
 
 
