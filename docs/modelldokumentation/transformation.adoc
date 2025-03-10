@@ -29,11 +29,16 @@ m| Vertragsflaeche m| Vertragsflaeche
 |===
 | Quellattribut | Zielattribut
 m| Kennung m| TeilObjNummer
-|  `+tid+ der http://models.geo.admin.ch/BAFU/Waldreservate_Catalogues_V2_0.xml[Codeliste]`; +
-hergeleitet über `+MCPFE_Klasse.Code+` = `+MCPFE_Class_Catalogue.Code+`
+|  `+tid+` der http://models.geo.admin.ch/BAFU/Waldreservate_Catalogues_V2_0.xml[Codeliste]; hergeleitet über +
+`+Gebiet.rMCPFE_Klasse+` = `+MCPFE_Klasse.OID+` -> +
+`+MCPFE_Klasse.Code+` = `+MCPFE_Class_Catalogue.Code+`
 m| MCPFE_Class
 m| Prioritaet.Code m| PrioGebiet
-m| todo m| Schutzziele
+| `+tid+ der http://models.geo.admin.ch/BAFU/Waldreservate_Catalogues_V2_0.xml[Codeliste]`; hergeleitet über: +
+`+Gebiet.rSchutzziel+` = `+Schutzziel.OID+` -> +
+`+Schutzziel.Code+` = `+Schutzziel_Catalogue.Code+` m| Schutzziele.Schutzziel
+| Beziehungsattribut: +
+`+Schutzziel__Gebiet.Bemerkung+` m| Schutzziele.SchutzzielBemerkung
 m| istNFAfinanziert m| NFA_Finanzierung
 m| Geometrie m| Geo_Obj
 m| Rechtsstatus.Code m| Rechtsstatus
@@ -90,7 +95,7 @@ Zudem muss der Code des Waldfeststellungstatus `+Verfahrensstatus.Code+` des Auf
 | Quellattribut | Zielattribut
 | - - - m| Punkt
 | - - - m| Linie
-| Gebiet.Geometrie m| Flaeche
+m| Gebiet.Geometrie m| Flaeche
 | analog `+Eigentumsbeschraenkung.Rechtsstatus+` m| Rechtsstatus
 | analog `+Eigentumsbeschraenkung.publiziertAb+` m| publiziertAb
 | analog `+Eigentumsbeschraenkung.publiziertBis+` m| publiziertBis
@@ -108,7 +113,6 @@ m| https://data.geo.sz.ch/public/Themen/A117a/Legende.xml[Legende.xml] m| ArtCod
 | fix: " `+ch.Waldreservate+` " m| Thema
 | - - - m| SubThema
 |===
-
 
 ifdef::backend-pdf[]
 <<<
