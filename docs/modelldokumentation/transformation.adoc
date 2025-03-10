@@ -34,7 +34,7 @@ m| Kennung m| TeilObjNummer
 `+MCPFE_Klasse.Code+` = `+MCPFE_Class_Catalogue.Code+`
 m| MCPFE_Class
 m| Prioritaet.Code m| PrioGebiet
-| `+tid+ der http://models.geo.admin.ch/BAFU/Waldreservate_Catalogues_V2_0.xml[Codeliste]`; hergeleitet über: +
+| `+tid+` der http://models.geo.admin.ch/BAFU/Waldreservate_Catalogues_V2_0.xml[Codeliste]; hergeleitet über: +
 `+Gebiet.rSchutzziel+` = `+Schutzziel.OID+` -> +
 `+Schutzziel.Code+` = `+Schutzziel_Catalogue.Code+` m| Schutzziele.Schutzziel
 | Beziehungsattribut: +
