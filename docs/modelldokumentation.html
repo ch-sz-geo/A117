@@ -1204,8 +1204,9 @@ In diesem Abschnitt muss der Entscheid aufgeführt werden, wie die zuständige S
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>TeilObjNummer</code></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>tid der <a href="http://models.geo.admin.ch/BAFU/Waldreservate_Catalogues_V2_0.xml">Codeliste</a></code>;<br>
-hergeleitet über <code>MCPFE_Klasse.Code</code> = <code>MCPFE_Class_Catalogue.Code</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>tid</code> der <a href="http://models.geo.admin.ch/BAFU/Waldreservate_Catalogues_V2_0.xml">Codeliste</a>; hergeleitet über<br>
+<code>Gebiet.rMCPFE_Klasse</code> = <code>MCPFE_Klasse.OID</code> &#8594;<br>
+<code>MCPFE_Klasse.Code</code> = <code>MCPFE_Class_Catalogue.Code</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>MCPFE_Class</code></p></td>
 </tr>
 <tr>
@@ -1213,8 +1214,15 @@ hergeleitet über <code>MCPFE_Klasse.Code</code> = <code>MCPFE_Class_Catalogue.C
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>PrioGebiet</code></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>todo</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Schutzziele</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>tid der <a href="http://models.geo.admin.ch/BAFU/Waldreservate_Catalogues_V2_0.xml">Codeliste</a></code>; hergeleitet über:<br>
+<code>Gebiet.rSchutzziel</code> = <code>Schutzziel.OID</code> &#8594;<br>
+<code>Schutzziel.Code</code> = <code>Schutzziel_Catalogue.Code</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Schutzziele.Schutzziel</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Beziehungsattribut:<br>
+<code>Schutzziel__Gebiet.Bemerkung</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Schutzziele.SchutzzielBemerkung</code></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>istNFAfinanziert</code></p></td>
@@ -1374,7 +1382,7 @@ Zudem muss der Code des Waldfeststellungstatus <code>Verfahrensstatus.Code</code
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>Linie</code></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Gebiet.Geometrie</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Gebiet.Geometrie</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>Flaeche</code></p></td>
 </tr>
 <tr>
@@ -1443,7 +1451,7 @@ Zudem muss der Code des Waldfeststellungstatus <code>Verfahrensstatus.Code</code
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-03-10 06:49:31 UTC
+Last updated 2025-03-10 07:09:34 UTC
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
