@@ -138,7 +138,7 @@ m| OID
 | öffentlich
 m| Kennung
 | eindeutiger Wert zur Kennung des Objektes
-| <todo>
+| 160_SZ_01
 | öffentlich
 m| erfasstVon
 | Loginname der Person, welche den Datensatz erstellt hat (Autor); wird durch das System gesetzt
