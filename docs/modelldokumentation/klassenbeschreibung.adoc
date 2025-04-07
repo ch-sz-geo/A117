@@ -193,6 +193,8 @@ m| rRechtsstatus
 m| Kennung
 3+a| * Die Werte müssen innerhalb der Klasse eindeutig sein.
 * Nach der Vergabe muss der Wert unverändert bleiben.
+| Beziehung zur Klasse `+Gebiet+`
+3+a| * Jedem Objekt der Klasse `+Waldreservat+` muss mindestens ein Objekt der Klasse `+Gebiet+` zugeordnet sein.
 |===
 
 ==== Klasse `+Gebiet+`
