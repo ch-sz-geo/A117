@@ -5,7 +5,7 @@
 
 === Transformation ins minimale Geodatenmodell des Bundes
 * Quellmodell: Das hier beschriebene Datenmodell
-* Zielmodell: http://models.geo.admin.ch/BAFU/Waldreservate_V2_0.ili[Waldreservate_V2_0 (Version: 2025-01-23)]
+* Zielmodell: http://models.geo.admin.ch/BAFU/Waldreservate_V2_0.ili[Waldreservate_V2_0 (Version: 2025-03-07]
 
 ==== Struktur `+Schutzziele+`
 [cols=2*,options="header"]
