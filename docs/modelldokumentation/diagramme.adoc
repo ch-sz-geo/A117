@@ -1,9 +1,9 @@
 == Diagramme
 === Komponentendiagramm
-image::../img/Komponentendiagramm.jpg[]
+image::../img/SZ_Waldreservate_V2_2_Komponentendiagramm.png[]
 
 === Klassendiagramm
-image::../img/Klassendiagramm.jpg[]
+image::../img/SZ_Waldreservate_V2_2_Klassendiagramm.png[]
 
 image::../img/Legende Klassendiagramm.png[width=350]
 
