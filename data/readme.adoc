@@ -4,6 +4,9 @@
 |===
 | Dateiname | Beschreibung | Modell (Version)
 | *Stammdaten_2000-01-01.xtf*
-| Diese Datei enthält die Stammdaten, welche für die publizierten Daten gelten. Die Datei wurde am 29. Januar 2025.
-| SZ_Beispielmodell_V1 (2024-07-29)
+| Diese Datei enthält die Stammdaten einer früheren Modellversion.
+| SZ_Waldreservate_V2_1 (2023-07-18)
+| *Stammdaten_2025-02-10.xtf*
+| Diese Datei enthält die Stammdaten der aktuell gültigen Modellversion.
+| SZ_Waldreservate_V3 (2025-02-10)
 |===
