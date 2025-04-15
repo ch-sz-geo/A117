@@ -160,13 +160,21 @@ m| Name
 | Bezeichnung des Waldreservats
 | Urmiberg
 | öffentlich
+m| Vertragsname
+| Name des Vertrags gemäss Vertragsdokument
+| Naturwaldreservat Erlenwald
+| öffentlich
+m| Vertragspartei
+| Name der Partei, mit welcher der Vertrag abgeschlossen wurde.
+| Genossame Sattel
+| öffentlich
 m| Vertragsbeginn
 | Datum, ab dem der Vertrag seine Gültigkeit hat
 | 1985-06-18
 | öffentlich
 m| Vertragsende
 | Datum, an dem die Gültigkeit des Vertrags endete
-| 2015-05-25
+| 2035-05-25
 | öffentlich
 m| Doklink
 | Internetadresse, unter welcher die Dokumente für die ÖREB-Publikation abgerufen werden können
