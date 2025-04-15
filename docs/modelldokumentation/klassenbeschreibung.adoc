@@ -288,6 +288,11 @@ m| Bemerkung
 | Bemerkung zum Datenstand
 | Waldreservat Ibergeregg leicht angepasst
 | öffentlich
+4+| *Beziehungsattribute*
+m| rDatenbestandSingleton
+| Fremdschlüssel auf sich selbst. Dadurch wird erreicht, dass die Klasse immer nur ein Objekt enthält (Singleton-Modellierungsmuster).
+| ccee2bad-419e-454e-9e0f-9ef2ae2d4d44
+| öffentlich
 |===
 
 ifdef::backend-pdf[]
