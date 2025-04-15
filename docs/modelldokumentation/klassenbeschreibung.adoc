@@ -123,8 +123,8 @@ m|Name
 3+| Die Werte müssen eindeutig sein
 |===
 
-=== Topic `+Geobasisdaten+`
-Das Topic `+Geobasisdaten+` umfasst die eigentlichen, fachlichen Klassen des Themas.
+=== Topic `+Fachdaten+`
+Das Topic `+Fachdaten+` umfasst die eigentlichen, fachlichen Klassen des Themas.
 
 ==== Klasse `+Waldreservat+`
 Die Klasse `+Waldreservat+` führt die Informationen zum Waldreservat. Die Klasse enthält keine Geometrie. Die Reservatsfläche liegt auf der Klasse `+Gebiet+`.
@@ -176,13 +176,13 @@ m| Vertragsende
 | Datum, an dem die Gültigkeit des Vertrags endete
 | 2035-05-25
 | öffentlich
-m| Doklink
-| Internetadresse, unter welcher die Dokumente für die ÖREB-Publikation abgerufen werden können
-| https://oereblex.sz.ch/api/geolinks/1912
-| öffentlich
 m| Vertragsflaeche
 | Gesamtfläche des vertraglich oder durch eine Schutzanordnung festgelegten Waldreservats in [ha].
 | 10.53
+| öffentlich
+m| Doklink
+| Internetadresse, unter welcher die Dokumente für die ÖREB-Publikation abgerufen werden können
+| https://oereblex.sz.ch/api/geolinks/1912
 | öffentlich
 m| Bemerkung
 | öffentliche Bemerkung zum Objekt
