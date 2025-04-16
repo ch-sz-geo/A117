@@ -1,11 +1,7 @@
-== <todo> Modelltransformationen
-=== Transformation vom Bearbeitungsmodell ins Publikationsmodell <todo>
-* Quellmodell: https://raw.githubusercontent.com/ch-sz-geo/A064/refs/heads/main/models/SZ_Schutzwald_V1_Bearbeitung.ili[Bearbeitungsmodell "SZ_Schutzwald_V1" (Version: 2025-01-23)]
-* Zielmodell: https://raw.githubusercontent.com/ch-sz-geo/A064/refs/heads/main/models/SZ_Schutzwald_V1.ili[Publikationsmodell verwaltungsintern "SZ_Schutzwald_V1_Bearbeitung" (Version: 2025-01-23)]
-
+== Modelltransformationen
 === Transformation ins minimale Geodatenmodell des Bundes
 * Quellmodell: Das hier beschriebene Datenmodell
-* Zielmodell: http://models.geo.admin.ch/BAFU/Waldreservate_V2_0.ili[Waldreservate_V2_0 (Version: 2025-03-07]
+* Zielmodell: https://models.geo.admin.ch/BAFU/Waldreservate_V2_0.ili[Waldreservate_V2_0 (Version: 2025-03-07]
 
 ==== Struktur `+Schutzziele+`
 [cols=2*,options="header"]
@@ -47,12 +43,12 @@ m| Rechtsstatus.Code m| Rechtsstatus
 |===
 
 ==== Klasse `+Dokument+`
-Die Objekte der Klasse `+Dokument+` werden nicht an den Bund geliefert. Aus diesem Grund erübrigt sich eine Zuordnung.
+Die Objekte der Klasse `+Dokument+` werden nicht an den Bund geliefert. Aus diesem Grund wird auf eine Zuordnungstabelle verzichtet.
 
 ==== Klasse `+Amt+`
-Die Werte für die Klasse `+Amt+` werden für alle ÖREB-Themen zentral zur Verfügung gestellt und aus dieser Zusammenstellung entnommen.
+Die Werte für die Klasse `+Amt+` werden für alle ÖREB-Themen zentral zur Verfügung und von dort genommen.
 
-=== Transformation ins Transfermodell ÖREB-Kataster <todo>
+=== Transformation ins Transfermodell ÖREB-Kataster
 * Quellmodell: Das hier beschriebene Datenmodell
 * Zielmodell: https://models.geo.admin.ch/V_D/OeREB/OeREBKRMtrsfr_V2_0.ili[OeREBKRMtrsfr_V2_0 (Version: 2021-04-14)]
 
@@ -68,25 +64,9 @@ Die Werte für die Klasse `+Amt+` werden für alle ÖREB-Themen zentral zur Verf
 [cols=2*,options="header"]
 |===
 | Quellattribut | Zielattribut
-| Der Wert für `+Rechtsstatus+` wird regelbasiert abgeleitet (siehe unten) | `+Rechtsstatus+`
+| `+Rechtsstatus.Code+`, hergeleitet über `+Waldreservat.rRechtsstatus+` | `+Rechtsstatus+`
 | Datum, an dem die Publikation im ÖREB-Katastersystem erfolgt; wird durch den Publikationsprozess gesetzt m| publiziertAb
 | (aktuell nicht verwendet und daher leer) m| publiziertBis
-|===
-
-Regeln für die Ableitung des Wertes für `+Rechtsstatus+`: <todo>
-|===
-h| Regel h| Rechtsstatus
-a| Der Wert von `+Waldgrenze.Begruendungsverfahren+` muss gesetzt sein und der Wert von `+Waldgrenze.Aufhebungsverfahren+` muss leer sein. +
-Zudem darf der Code des Waldfeststellungstatus `+Verfahrensstatus.Code+` (hergeleitet über `+Waldfeststellung.rVerfahrensstatus+`) nicht einer der folgenden Werte aufweisen: 'abgeschlossen', 'abgeschlossen_ohne_Verfuegung', 'unbekannt'.
-| `+laufendeAenderung_Begruendung+`
-| Der Wert von `+Waldgrenze.Begruendungsverfahren+` muss gesetzt sein und der Wert von `+Waldgrenze.Aufhebungsverfahren+` muss leer sein. +
-Zudem muss der Code des Waldfeststellungstatus `+Verfahrensstatus.Code+` (hergeleitet über `+Waldfeststellung.rVerfahrensstatus+`) den Wert 'abgeschlossen' aufweisen. | `+inKraft+`
-| Die Werte von `+Waldgrenze.Begruendungsverfahren+` und `+Waldgrenze.Aufhebungsverfahren+` müssen gesetzt sein. +
-Zudem darf der Code des Waldfeststellungstatus `+Verfahrensstatus.Code+` des Aufhebungsverfahrens (hergeleitet über `+Waldfeststellung.rVerfahrensstatus+`) nicht einer der folgenden Werte aufweisen: 'abgeschlossen', 'abgeschlossen_ohne_Verfuegung', 'unbekannt'.
-| `+laufendeAenderung_Aufhebung+`
-| Die Werte von `+Waldgrenze.Begruendungsverfahren+` und `+Waldgrenze.Aufhebungsverfahren+` müssen gesetzt sein. +
-Zudem muss der Code des Waldfeststellungstatus `+Verfahrensstatus.Code+` des Aufhebungsverfahrens (hergeleitet über `+Waldfeststellung.rVerfahrensstatus+`) den Wert 'abgeschlossen' aufweisen.
-| `+inKraft_Aufhebung+`
 |===
 
 ==== Klasse `+Geometrie+`
@@ -99,7 +79,7 @@ m| Gebiet.Geometrie m| Flaeche
 | analog `+Eigentumsbeschraenkung.Rechtsstatus+` m| Rechtsstatus
 | analog `+Eigentumsbeschraenkung.publiziertAb+` m| publiziertAb
 | analog `+Eigentumsbeschraenkung.publiziertBis+` m| publiziertBis
-| https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/1be6a001-5914-43cc-8910-c62e0d6505c1[Link auf GeoCat] m| MetadatenGeobasisdaten
+| fix: `+https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/1be6a001-5914-43cc-8910-c62e0d6505c1+` m| MetadatenGeobasisdaten
 |===
 
 ==== Klasse `+LegendeEintrag+`
@@ -109,8 +89,8 @@ m| Gebiet.Geometrie m| Flaeche
 m| MCPFE_Klasse.Symbol m| Symbol
 m| MCPFE_Klasse.Name m| LegendeText
 m| MCPFE_Klasse.Code m| ArtCode
-m| https://data.geo.sz.ch/public/Themen/A117a/Legende.xml[Legende.xml] m| ArtCodeliste
-| fix: " `+ch.Waldreservate+` " m| Thema
+| fix: `+https://data.geo.sz.ch/public/Themen/A117a/Legende.xml+` m| ArtCodeliste
+| fix: `+ch.Waldreservate+` m| Thema
 | - - - m| SubThema
 |===
 
