@@ -4,8 +4,8 @@ Im Strategie-Dokument «Waldpolitik 2020» <<allgemeines.adoc#doc-06,[06]>> hat 
 
 Im Kanton Schwyz sind 6.4 % der Waldfläche als Naturwaldreservate und 7.1 % als Sonderwaldreservate eingerichtet und vertraglich auf 50 Jahre gesichert. Die 34 Naturwaldreservate umfassen insgesamt 1’731 ha, die 9 Sonderwaldreservate 1’915 ha (Stand 2023). Es wird unterschieden zwischen:
 
-*	Naturwaldreservaten (MCPFE-Class 1.2), wo gänzlich auf forstliche Eingriffe verzichtet wird und der Wald sich natürlich entwickeln kann, und
-*	Sonderwaldreservaten (MCPFE-Class 1.3), in welchen gezielt eingegriffen wird, um bedrohte Arten zu fördern.
+*	**Naturwaldreservaten** (MCPFE-Class 1.2), wo gänzlich auf forstliche Eingriffe verzichtet wird und der Wald sich natürlich entwickeln kann, und
+*	**Sonderwaldreservaten** (MCPFE-Class 1.3), in welchen gezielt eingegriffen wird, um bedrohte Arten zu fördern.
 
 Für die Publikation im ÖREB-Kataster ist für jede Geometrie ihre Rechtsvorschrift zuzuordnen. Bei Waldreservaten ist die Rechtsvorschrift der Vertrag, welcher die zuständige Stelle mit dem Eigentümer abschliesst. Der Vertrag kann Personen- wie Finanzdaten enthalten, welche nicht für eine Veröffentlichung vorgesehen waren. Der Bund hat dies erkannt und darauf reagiert. Er schreibt in Kapitel 3.16.2 in <<allgemeines.adoc#doc-05,[05]>>, dass die Rechtsvorschrift bei Waldreservaten wie folgt gestaltet werden können: +
 __"Die Verträge mit Waldbewirtschaftern selber müssen nicht zwingend als Rechtsvorschrift verlinkt werden. In dem Falle ist bei den Rechtsvorschriften der Name des Vertrages anzugeben, damit sich Interessierte bei der zuständigen Fachstelle erkundigen können."__
