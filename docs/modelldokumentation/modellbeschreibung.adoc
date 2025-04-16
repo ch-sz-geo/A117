@@ -1,6 +1,6 @@
 == Modellbeschreibung
 
-Im Strategie-Dokument «Waldpolitik 2020» hat der Bund das Ziel festgelegt, dass bis 2030 mindestens 10 % der Schweizer Waldfläche als Waldreservate gesichert sein müssen. Die Umsetzung dieser Vorgabe ist Sache der Kantone und erfolgt anhand von Programmvereinbarungen zwischen dem Bund und den Kantonen.
+Im Strategie-Dokument «Waldpolitik 2020» <<allgemeines.adoc#doc-06,[06]>> hat der Bund das Ziel festgelegt, dass bis 2030 mindestens 10 % der Schweizer Waldfläche als Waldreservate gesichert sein müssen. Die Umsetzung dieser Vorgabe ist Sache der Kantone und erfolgt anhand von Programmvereinbarungen zwischen dem Bund und den Kantonen.
 
 Im Kanton Schwyz sind 6.4 % der Waldfläche als Naturwaldreservate und 7.1 % als Sonderwaldreservate eingerichtet und vertraglich auf 50 Jahre gesichert. Die 34 Naturwaldreservate umfassen insgesamt 1’731 ha, die 9 Sonderwaldreservate 1’915 ha (Stand 2023). Es wird unterschieden zwischen:
 
