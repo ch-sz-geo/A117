@@ -6,8 +6,6 @@ Dieses Dokument beschreibt den Geobasisdatensatz
 
 Waldreservate sind wichtige Instrumente zur Förderung der ökologischen und biologischen Vielfalt im Wald. Bund und Kantone haben sich verpflichtet, bis ins Jahr 2030 10 % der Waldfläche als Waldreservate auszuscheiden.
 
-Im Kanton Schwyz stehen aktuell insgesamt gut 13 % der Waldfläche als Waldreservate unter Vertrag. Total sind es 3'646 ha, wovon 1'729 ha als Naturwald- und 1'917 ha als Sonderwaldreservate. Grundlage dazu bildet das bereits im Jahr 1999 erarbeitete Waldreservatskonzept. Dieses wurde in der Folge konsequent und erfolgreich umgesetzt, so dass bis 2007 bereits gut 8 % der kantonalen Waldfläche als Waldreservate gesichert werden konnten, und 2018 der heutige Anteil von 13 % erreicht war.
-
 Der Geobasisdatensatz ist Bestandteil des ÖREB-Katasters.
 
 === rechtliche Grundlagen
