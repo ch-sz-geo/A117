@@ -7,6 +7,10 @@
 | Diese Datei enthält die Stammdaten einer früheren Modellversion.
 | SZ_Waldreservate_V2_1 (2023-07-18)
 | *Stammdaten_2025-02-10.xtf*
+| Diese Datei enthält eine Zwischenversion von Stammdaten der aktuell gültigen Modellversion.
+| SZ_Waldreservate_V3 (2025-02-10)
+| *Stammdaten_2026-01-14.xtf*
 | Diese Datei enthält die Stammdaten der aktuell gültigen Modellversion.
 | SZ_Waldreservate_V3 (2025-02-10)
 |===
+
