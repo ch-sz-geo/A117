@@ -13,7 +13,7 @@ Bei der Bewirtschaftung eines Themas gibt es Attribute, deren Werte nicht frei e
 (2025-02-10)
 | 2026-01-14
 | Diese Datei enthält die Stammdaten der aktuell gültigen Modellversion.
-| https://raw.githubusercontent.com/ch-sz-geo/A117/ab50ce4172c06ccb5c3669aef7d9015a449076fe/data/Stammdaten.xtf[*Datei*]
+| https://raw.githubusercontent.com/ch-sz-geo/A117/refs/heads/main/data/Stammdaten.xtf[*Datei*]
 | SZ_Waldreservate_V3 +
 (2025-02-10)
 | 2025-02-10
