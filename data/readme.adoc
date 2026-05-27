@@ -1,16 +1,27 @@
 = Dateibeschreibung
 
-[cols=*,options="header"]
-|===
-| Dateiname | Beschreibung | Modell (Version)
-| *Stammdaten_2000-01-01.xtf*
-| Diese Datei enthält die Stammdaten einer früheren Modellversion.
-| SZ_Waldreservate_V2_1 (2023-07-18)
-| *Stammdaten_2025-02-10.xtf*
-| Diese Datei enthält eine Zwischenversion von Stammdaten der aktuell gültigen Modellversion.
-| SZ_Waldreservate_V3 (2025-02-10)
-| *Stammdaten_2026-01-14.xtf*
-| Diese Datei enthält die Stammdaten der aktuell gültigen Modellversion.
-| SZ_Waldreservate_V3 (2025-02-10)
-|===
+Bei der Bewirtschaftung eines Themas gibt es Attribute, deren Werte nicht frei erfasst, sondern aus einem vorgegebenen Katalog selektiert werden müssen (z.B. Gemeindenamen aus dem Katalog der Schwyzer Gemeinden). Die Gesamtheit der Kataloge eines Themas wird als "Stammdaten" bezeichnet. Sie werden in einer eigenen Datei gehalten (`+Stammdaten.xtf+`) und bilden eine Voraussetzung für die Datenerfassung.
 
+Änderungen am Datenmodell und/oder Änderungen an den Stammdaten führen zu Anpassungen in der Datei `+Stammdaten.xtf+`. Die nachfolgende Tabelle zeigt, welche Stammdaten bei welchem Datenmodell zu verwenden sind.
+
+
+[cols="30%, 20%, 40%, 10%",options="header"]
+|===
+| Modell +
+(Version) | gültig ab | Beschreibung | Link
+| SZ_Waldreservate_V3 +
+(2025-02-10)
+| 2026-01-14
+| Diese Datei enthält die Stammdaten der aktuell gültigen Modellversion.
+| https://raw.githubusercontent.com/ch-sz-geo/A117/ab50ce4172c06ccb5c3669aef7d9015a449076fe/data/Stammdaten.xtf[*Datei*]
+| SZ_Waldreservate_V3 +
+(2025-02-10)
+| 2025-02-10
+| Diese Datei enthält eine Zwischenversion von Stammdaten der aktuell gültigen Modellversion.
+| https://raw.githubusercontent.com/ch-sz-geo/A117/bb4dc64d6991206a9fac85ce0861a22c943d872d/data/Stammdaten.xtf[*Datei*]
+| SZ_Waldreservate_V2_1 +
+(2023-07-18)
+| 2000-01-01
+| Diese Datei enthält die Stammdaten der Modellversion V2.1. Sie wurde aus der internen Dateiablage hochgeladen, damit die Historie über GitHub vorhanden ist. 
+| https://raw.githubusercontent.com/ch-sz-geo/A117/61069cee07d66a5deb9ddf654d493922f93da43a/data/Stammdaten.xtf[*Datei*]
+|===
